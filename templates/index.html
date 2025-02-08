@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>臺北市113年度國語文競賽第二階段抽籤作業</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>臺北市113年度國語文競賽第二階段抽籤作業</h1>
+    
+    <div class="group">
+        <h2>演說</h2>
+        <ul>
+            <li><a href="{{ url_for('draw_page', page_name='國中演說') }}" target="_blank">國中組</a></li>
+            <li><a href="{{ url_for('draw_page', page_name='高中演說') }}" target="_blank">高中組</a></li>
+        </ul>
+    </div>
+    
+    <div class="group">
+        <h2>朗讀</h2>
+        <ul>
+            <li><a href="{{ url_for('draw_page', page_name='國中朗讀') }}" target="_blank">國中組</a></li>
+            <li><a href="{{ url_for('draw_page', page_name='高中朗讀') }}" target="_blank">高中組</a></li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        ::2024 建中圖書館::潘威歷主任::
+    </div>
+
+</body>
+</html>
