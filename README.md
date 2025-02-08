@@ -13,7 +13,7 @@
 
 ### 1. 克隆此專案
 ```bash
-git clone https://github.com/你的GitHub帳號/your-repo-name.git
+git clone https://github.com/weilipan/chinese-language-competition-finalround.git
 cd your-repo-name
 ```
 
